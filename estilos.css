@@ -1,0 +1,214 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: "san";
+        /* Quita los dos puntos '../' porque estilos.css y Archivo_Black están juntas */
+        src: url("sans_andreas/Sans-Andreas-Bold-Demo.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "dragon";
+        /* Quita los dos puntos '../' porque estilos.css y Archivo_Black están juntas */
+        src: url("dragon_ball_2/Dragon\ Ball.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "goku";
+        /* Quita los dos puntos '../' porque estilos.css y Archivo_Black están juntas */
+        src: url("biqabygoku/Biqabygoku.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "mine";
+        /* Quita los dos puntos '../' porque estilos.css y Archivo_Black están juntas */
+        src: url("minecrafter/Minecrafter.Alt.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "car";
+        /* Quita los dos puntos '../' porque estilos.css y Archivo_Black están juntas */
+        src: url("carlo/Carlo.ttf") format("truetype");
+    }
+    h2{
+        text-align: center;
+        font-size: 100px;
+        color: green;
+        text-shadow: 5px 5px 0px black;
+    }
+
+    #boton1{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: red;
+        color: aliceblue;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border: aqua groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px orange;
+        font-family: "san", sans-serif;
+    }
+    #boton1:hover{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: pink;
+        color: aquamarine;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border:lightpink groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px orange;
+        font-family: "monster",sans-serif;
+        transition: 1s ease all;
+    }
+
+    #boton2{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background:palegreen;
+        color: blue;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border: aqua groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px violet;
+        font-family: "dragon", sans-serif;
+    }
+    #boton2:hover{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: pink;
+        color: aquamarine;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border:lightpink groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px orange;
+        font-family: "dragon",sans-serif;
+        transition: 1s ease all;
+    }
+
+
+     #boton3{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: rebeccapurple;
+        color: blue;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border: aqua groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px violet;
+        font-family: "mine", sans-serif;
+    }
+    #boton3:hover{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: pink;
+        color: aquamarine;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border:lightpink groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px orange;
+        font-family: "mine",sans-serif;
+        transition: 1s ease all;
+    }
+
+
+     #boton4{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: limegreen;
+        color: blue;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border: aqua groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px violet;
+        font-family: "car", sans-serif;
+    }
+    #boton4:hover{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: pink;
+        color: aquamarine;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border:lightpink groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px orange;
+        font-family: "car",sans-serif;
+        transition: 1s ease all;
+    }
+
+
+     #boton5{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: olive;
+        color: blue;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border: aqua groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px violet;
+        font-family: "goku", sans-serif;
+    }
+    #boton5:hover{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: pink;
+        color: aquamarine;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+        margin: 10px auto;
+        padding: 10px;
+        border:lightpink groove 5px;
+        border-radius: 50px 10px 20px 30px;
+        box-shadow: 10px 5px 5px orange;
+        font-family: "goku",sans-serif;
+        transition: 1s ease all;
+    }
