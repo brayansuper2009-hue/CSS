@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to bottom, hsl(103, 70%, 18%), hsl(221, 22%, 49%));
+    background-attachment: fixed;
+}
 div{
     width: 200px;
     height: 200px;
     border: solid blue;
     margin: 10px auto;
 }
+
+
 #c1{
     background: greenyellow;
 }
