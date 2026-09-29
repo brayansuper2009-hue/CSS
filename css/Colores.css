@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: solid blue;
+    margin: 10px auto;
+}
+#c1{
+    background: greenyellow;
+}
+
+#c2{
+    background: gray;
+}
+
+#c3{
+    background: magenta;
+}
+
+
+#c4{
+   background:#1963A6;
+}
+
+#c5{
+    background:#751E87;
+}
+
+#c6{
+    background: #55B015;
+}
+
+#c7{
+   background: rgb(82, 14, 34);
+}
+
+#c8{
+    background: rgb(132, 217, 224);
+}
+
+#c9{
+    background: rgb(163, 224, 101);
+}
+
+
+#co10{
+   background: rgba(235, 164, 50, 0.5);
+}
+
+#co11{
+    background: rgba(125, 163, 228, 0.5);
+}
+
+#co12{
+    background: rgba(94, 203, 30, 0.5);
+}
+
+
+#co13{
+   background: hsl(210, 100%, 25%);
+}
+
+#co14{
+    background:  hsl(210, 100%, 50%);
+}
+
+#co15{
+    background: hsl(128, 255%, 25%);
+}
+
+#co16 {
+    background: linear-gradient(to bottom, hsl(128, 100%, 25%), #000000);
+}
+
+#co17 {
+    background: linear-gradient(to bottom, hsl(195, 100%, 50%), hsl(220, 100%, 20%));
+}
+
+#co18 {
+    background: linear-gradient(to bottom, hsl(45, 100%, 55%), hsl(5, 85%, 45%));
+}
+
+#co19 {
+    background: linear-gradient(to right, hsl(280, 75%, 55%), hsl(330, 90%, 60%));
+}
+
+#co20 {
+    background: linear-gradient(to right, hsl(95, 80%, 45%), hsl(50, 100%, 55%));
+}
+
+#co21 {
+    background: linear-gradient(to right, hsl(175, 80%, 35%), hsl(205, 90%, 50%));
+}
+
+#co22 {
+    background-color: hwb(210 80% 5%); 
+}
+
+#co23 {
+    background-color: hwb(210 40% 30%); 
+}
+
+#co24 {
+    background-color: hwb(210 10% 70%); 
+}
